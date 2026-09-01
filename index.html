@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Флокс — быстрый и приватный мессенджер</title>
+<title>Flox — быстрый и приватный мессенджер</title>
 <meta name="description" content="Флокс — быстрый и удобный мессенджер со сквозным шифрованием и 15 ГБ облачного хранилища бесплатно.">
 <meta name="theme-color" content="#170B2E">
 <meta name="color-scheme" content="dark">
@@ -142,19 +142,6 @@
   .stat__text h2{ font-size:clamp(2rem, 3.4vw, 2.75rem); }
   .stat__text p{ margin-top:18px; max-width:46ch; color:var(--mist-72); font-size:1.05rem; }
 
-  /* ---------- CTA ---------- */
-  .cta{ max-width:720px; margin:0 auto; padding:60px 24px 100px; text-align:center; }
-  .cta h2{ font-size:clamp(2.1rem, 4vw, 3rem); }
-  .cta p{ margin-top:16px; color:var(--mist-72); font-size:1.05rem; }
-  .cta__buttons{ margin-top:36px; display:flex; justify-content:center; gap:16px; flex-wrap:wrap; }
-  .platform-btn{
-    display:inline-flex; align-items:center; gap:10px; padding:14px 24px; border-radius:14px;
-    border:1px solid var(--line); background:var(--glass); backdrop-filter:blur(12px); color:var(--mist);
-    font-weight:600; cursor:pointer; transition:transform .2s ease, background .2s ease;
-  }
-  .platform-btn:hover{ transform:translateY(-2px); background:rgba(246,239,255,.1); }
-  .platform-btn svg{ width:20px; height:20px; }
-
   /* ---------- подвал ---------- */
   .footer{
     max-width:var(--container); margin:0 auto; padding:32px 24px 56px; display:flex; justify-content:space-between;
@@ -181,14 +168,14 @@
   <aside class="side-mark" aria-hidden="true"><span>Мессенджер Флокс</span></aside>
 
   <header class="nav">
-    <div class="nav__logo">Флокс</div>
+    <div class="nav__logo">FLox</div>
     <a class="btn btn--ghost" href="#download">Скачать</a>
   </header>
 
   <main>
     <section class="hero">
       <div class="hero__text">
-        <h1>Мессенджер<br>Флокс</h1>
+        <h1>Мессенджер<br>Flox</h1>
         <p class="hero__subtitle">Быстрый и удобный способ оставаться на связи: сквозная защита переписки и 15 ГБ облачного хранилища бесплатно — с первого дня.</p>
         <div class="hero__actions">
           <a class="btn btn--primary" href="#download">Скачать бесплатно</a>
@@ -209,7 +196,7 @@
       </div>
       <div class="feature__visual">
         <div class="asset-frame" data-fallback="Быстрый">
-          <img src="second.png" alt="Экран быстрой переписки в приложении Флокс" loading="lazy" onerror="this.parentElement.classList.add('asset-frame--empty')">
+          <img src="second.png" alt="Экран быстрой переписки в приложении Flox" loading="lazy" onerror="this.parentElement.classList.add('asset-frame--empty')">
         </div>
       </div>
     </section>
@@ -235,25 +222,12 @@
     </section>
 
     <section class="cta" id="download">
-      <h2>Присоединяйтесь к Флокс</h2>
+      <h2>Присоединяйтесь к Flox</h2>
       <p>Быстрый, удобный и приватный мессенджер уже ждёт вас — на телефоне, планшете и в браузере.</p>
-      <div class="cta__buttons">
-        <button type="button" class="platform-btn">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="6" y="2" width="12" height="20" rx="2.5"/><line x1="11" y1="18.5" x2="13" y2="18.5"/></svg>
-          Скачать приложение
-        </button>
-        <button type="button" class="platform-btn">
-          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18"/><path d="M12 3c2.5 2.5 3.8 5.7 3.8 9s-1.3 6.5-3.8 9c-2.5-2.5-3.8-5.7-3.8-9s1.3-6.5 3.8-9z"/></svg>
-          Открыть в браузере
-        </button>
-      </div>
     </section>
   </main>
 
-  <footer class="footer">
-    <span>© 2026 Флокс</span>
-    <span>Серверы на Node.js</span>
-  </footer>
+
 
 </body>
 </html>
